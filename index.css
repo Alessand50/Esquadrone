@@ -1,0 +1,41 @@
+/* index.css - estilos globais e responsividade */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout global */
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #333333; /* graphite */
+  min-height: 100vh;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Seções com espaçamento vertical */
+section {
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 4rem 0;
+  }
+}
+
+/* Seleção de texto */
+::selection {
+  background-color: #00bcd4; /* cyan */
+  color: #ffffff;
+}

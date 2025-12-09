@@ -1,6 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from "./App.tsx";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css"; // <-- importa o CSS global
+
 
 
 const rootElement = document.getElementById('root');

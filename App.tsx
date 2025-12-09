@@ -12,13 +12,30 @@ function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-graphite selection:bg-cyan selection:text-white">
       <Header />
-      <main>
-        <Hero />
-        <Categories />
-        <FeaturedPilots />
-        <HowItWorks />
-        <TrustSection />
-        <Testimonials />
+      <main className="container mx-auto px-4">
+        <section className="hero-section mb-12">
+          <Hero />
+        </section>
+
+        <section className="categories-section mb-12">
+          <Categories />
+        </section>
+
+        <section className="featured-pilots-section mb-12">
+          <FeaturedPilots />
+        </section>
+
+        <section className="how-it-works-section mb-12">
+          <HowItWorks />
+        </section>
+
+        <section className="trust-section mb-12">
+          <TrustSection />
+        </section>
+
+        <section className="testimonials-section mb-12">
+          <Testimonials />
+        </section>
       </main>
       <Footer />
     </div>
